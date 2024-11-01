@@ -1,0 +1,8 @@
+#wpessentials_lockouts_table td.lockout_id span:first-child,
+#wpessentials_lockouts_table td.lockout_id:hover span:last-child {
+  display: none;
+}
+
+#wpessentials_lockouts_table td.lockout_id:hover span:first-child {
+  display: initial;
+}

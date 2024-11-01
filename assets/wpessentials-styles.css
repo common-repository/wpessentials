@@ -1,0 +1,97 @@
+a {
+  cursor: pointer;
+}
+
+div.wpessentials-page a,
+div.wpessentials-page input[type=button] {
+  vertical-align: baseline !important;
+}
+
+div.wpessentials-settings-page tr.wpessentials-toggle input:not(:checked) {
+  border-color: red;
+}
+
+div.wpessentials-settings-page tr.wpessentials-toggle input:not(:checked):focus {
+  box-shadow: 0 0 2px red;
+}
+
+div.wpessentials_table {
+  overflow-x: auto;
+}
+
+div.wpessentials-settings-page .wpessentials_table th,
+div.wpessentials-settings-page .wpessentials_table td {
+  display: table-cell;
+  text-align: left;
+  padding: 4px 6px;
+}
+
+div.wpessentials-settings-page .wpessentials_table td {
+  background-color: #fff;
+}
+
+div.wpessentials-settings-page .wpessentials_table tr.wpessentials_links_tr_warn>td,
+div.wpessentials-settings-page .wpessentials_table td.wpessentials_links_tr_warn {
+  background-color: #ffffb3;
+}
+
+div.wpessentials-settings-page .wpessentials_table tr.wpessentials_links_tr_err>td,
+div.wpessentials-settings-page .wpessentials_table td.wpessentials_links_tr_err {
+  background-color: #ffc6b3;
+}
+
+.wpessentials-green-text {
+  color: green;
+}
+
+.wpessentials-orange-text {
+  color: darkorange;
+}
+
+.wpessentials-red-text {
+  color: red;
+}
+
+.wpessentials-loader {
+  display: inline-block;
+  width: 20px;
+  vertical-align: text-bottom;
+  color: #0071a1;
+  text-align: center;
+  outline: none;
+  box-shadow: none !important;
+  /* cursor: wait !important; */
+}
+
+.wpessentials-loader>span {
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-radius: 50%;
+  border-color: #0071a1;
+  -webkit-animation: wpessentials-loader 1s linear infinite;
+  animation: wpessentials-loader 1s linear infinite;
+}
+
+@-webkit-keyframes wpessentials-loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes wpessentials-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

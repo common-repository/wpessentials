@@ -1,0 +1,540 @@
+# This file is distributed under the same license as the plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wpessentials\n"
+"Report-Msgid-Bugs-To: Bob Vandevliet <wpessentials@bvandevliet."
+"nl>\n"
+"POT-Creation-Date: 2022-02-11 17:33+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bob Vandevliet <wpessentials@bvandevliet.nl>\n"
+"Language-Team: wpessentials@bvandevliet.nl\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: wpessentials\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/brute-force.php:31
+#, php-format
+msgid ""
+"You receive this email because you have opted-in to be alerted "
+"when a lockout occurs.<br>\n"
+"        If you wish to opt-out, <a href=\"%1$s\">log-in</a> to "
+"your website and uncheck the option.<br>\n"
+"        If you are not the intended recipient of this message, "
+"please <a href=\"mailto:%2$s\">contact</a> the website "
+"administrator.<br>\n"
+"        <br>Thank you for using Essentials!"
+msgstr ""
+
+#: inc/brute-force.php:546 modules/security/action.php:47
+#: modules/security/action.php:74
+msgid "You are locked out."
+msgstr ""
+
+#: inc/functions.php:16
+msgid "Enabled"
+msgstr ""
+
+#: inc/functions.php:30 inc/functions.php:173
+msgid "Manage"
+msgstr ""
+
+#: inc/functions.php:138 inc/functions.php:146
+msgid "Enable"
+msgstr ""
+
+#: inc/functions.php:160
+msgid "Link Finder"
+msgstr ""
+
+#: inc/functions.php:173
+msgid "Install"
+msgstr ""
+
+#: inc/functions.php:208 wpessentials.php:275
+msgid "Save changes"
+msgstr ""
+
+#: modules/analytics/settings.php:44
+msgid "Tracking ID"
+msgstr ""
+
+#: modules/analytics/settings.php:52
+msgid ""
+"Find your Tracking ID under \"Admin\" >> \"Tracking Info\" >> "
+"\"Tracking Code\" in your <a href=\"https://analytics.google.com/"
+"analytics/\" target=\"_blank\" rel=\"noopener noreferrer\">Google "
+"Analytics account</a>.<br>\n"
+"          After saving settings, make sure Google Analytics is "
+"receiving traffic from your website using the \"Send test traffic"
+"\" button."
+msgstr ""
+
+#: modules/analytics/settings.php:75
+msgid "Tag location"
+msgstr ""
+
+#: modules/analytics/settings.php:98
+msgid ""
+"Google recommends including the tag in the page header, but "
+"including it in the footer could benefit page performance.<br>\n"
+"          If in doubt, go with the default header option."
+msgstr ""
+
+#: modules/analytics/settings.php:121
+msgid "Anonymize"
+msgstr ""
+
+#: modules/analytics/settings.php:128
+msgid ""
+"Anonymize the last 3 digits of the IP-adress (<a href=\"https://"
+"support.google.com/analytics/answer/2763052\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Explanation</a>)"
+msgstr ""
+
+#: modules/analytics/settings.php:136
+msgid ""
+"TIP! Accept the \"Data processing amendment\" for your Google "
+"Analytics account and disallow Google to share Analytics data with "
+"their other services.<br>\n"
+"          Then - with this option enabled - you don't need to ask "
+"your visitors for permission to place Analytics cookies. How To: "
+"<a href=\"https://support.google.com/analytics/answer/1011397/\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">Google</a>; <a href="
+"\"https://daan.dev/wordpress/analytics-gdpr-anonymize-ip-cookie-"
+"notice/\" target=\"_blank\" rel=\"noopener noreferrer\">Daan.dev</"
+"a>."
+msgstr ""
+
+#: modules/analytics/settings.php:159
+msgid "Disable ads"
+msgstr ""
+
+#: modules/analytics/settings.php:166
+msgid ""
+"Disable advertising features (<a href=\"https://support.google.com/"
+"analytics/answer/9050852\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Explanation</a>)"
+msgstr ""
+
+#: modules/analytics/settings.php:188
+msgid "Admin area"
+msgstr ""
+
+#: modules/analytics/settings.php:195
+msgid "Enable Google Analytics in the Admin area"
+msgstr ""
+
+#: modules/analytics/settings.php:215
+msgid "User tracking"
+msgstr ""
+
+#: modules/analytics/settings.php:219
+msgid "Your current IP adress:"
+msgstr ""
+
+#: modules/analytics/settings.php:230
+msgid "Disable tracking of Administrator users"
+msgstr ""
+
+#: modules/analytics/settings.php:245
+msgid "Disable tracking of all logged-in users"
+msgstr ""
+
+#: modules/devmode/settings.php:22 wpessentials.php:58
+msgid "Development Mode"
+msgstr ""
+
+#: modules/devmode/settings.php:44
+msgid "Debugging"
+msgstr ""
+
+#: modules/devmode/settings.php:57
+msgid "Enable debug"
+msgstr ""
+
+#: modules/devmode/settings.php:65
+msgid ""
+"Display all PHP errors, notices and warnings by setting <a href="
+"\"https://wordpress.org/support/article/debugging-in-wordpress/"
+"#wp_debug\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">WP_DEBUG</a> and <a href=\"https://wordpress.org/support/"
+"article/editing-wp-config-php/#wp_disable_fatal_error_handler\" "
+"target=\"_blank\" rel=\"noopener noreferrer"
+"\">WP_DISABLE_FATAL_ERROR_HANDLER</a> \"true\"."
+msgstr ""
+
+#: modules/devmode/settings.php:83
+msgid "Enable logging"
+msgstr ""
+
+#: modules/devmode/settings.php:92
+#, php-format
+msgid ""
+"Log all PHP errors, notices and warnings to <a href=\"%s\" target="
+"\"_blank\" rel=\"noopener noreferrer\">wp-content/debug.log</a> "
+"instead of displaying them,<br>\n"
+"          by setting <a href=\"https://wordpress.org/support/"
+"article/debugging-in-wordpress/#wp_debug_log\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">WP_DEBUG_LOG</a> \"true\" and <a href="
+"\"https://wordpress.org/support/article/debugging-in-wordpress/"
+"#wp_debug_display\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">WP_DEBUG_DISPLAY</a> \"false\"."
+msgstr ""
+
+#: modules/devmode/settings.php:113
+msgid "Save queries"
+msgstr ""
+
+#: modules/devmode/settings.php:121
+msgid ""
+"Saves the database queries to an array by setting <a href="
+"\"https://wordpress.org/support/article/debugging-in-wordpress/"
+"#savequeries\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">SAVEQUERIES</a> \"true\"<br>\n"
+"          and displays it in the front-end footer for logged in "
+"administrators to help analyze those queries."
+msgstr ""
+
+#: modules/devmode/settings.php:143
+msgid "Disable front-end"
+msgstr ""
+
+#: modules/devmode/settings.php:155
+msgid "Make front-end accessible for logged-in users only"
+msgstr ""
+
+#: modules/devmode/settings.php:163
+msgid ""
+"Logged-out visitors are redirected to the login page.<br>\n"
+"          Search engines are discouraged from indexing this site."
+"<br>\n"
+"          <strong>The Privacy Policy page will always be "
+"accessible.</strong>"
+msgstr ""
+
+#: modules/devmode/settings.php:188
+msgid ""
+"If front-end is accessible for logged-in users only,<br>\n"
+"          this is shown below the login form, instead of the "
+"homepage hyperlink."
+msgstr ""
+
+#: modules/devmode/settings.php:232
+msgid "debug.log file contents:"
+msgstr ""
+
+#: modules/devmode/settings.php:235
+msgid "clear"
+msgstr ""
+
+#: modules/login/settings.php:22 wpessentials.php:67
+#: wpessentials.php:68
+msgid "Login Form"
+msgstr ""
+
+#: modules/login/settings.php:41
+msgid "Login logo"
+msgstr ""
+
+#: modules/login/settings.php:81
+msgid "Select image"
+msgstr ""
+
+#: modules/login/settings.php:87
+msgid "Remove image"
+msgstr ""
+
+#: modules/login/settings.php:93
+msgid ""
+"Change the image shown above the login form.<br>\n"
+"          The image should ideally not be wider than 320px!"
+msgstr ""
+
+#: modules/security/settings.php:24 wpessentials.php:49
+#: wpessentials.php:50
+msgid "Security"
+msgstr ""
+
+#: modules/security/settings.php:43
+msgid "Secret Keys and Salts"
+msgstr ""
+
+#: modules/security/settings.php:50
+msgid "Regenerate"
+msgstr ""
+
+#: modules/security/settings.php:56
+msgid ""
+"Secret keys make your site harder to successfully attack by adding "
+"random elements to the password (<a href=\"https://wordpress.org/"
+"support/article/editing-wp-config-php/#security-keys\" target="
+"\"_blank\" rel=\"noopener noreferrer\">Security Keys</a>).<br>\n"
+"          You can regenerate these at any point in time to "
+"invalidate all existing cookies. <strong>This will force all users "
+"to have to log in again!</strong>"
+msgstr ""
+
+#: modules/security/settings.php:78
+msgid "Protection"
+msgstr ""
+
+#: modules/security/settings.php:90
+msgid "Protect system files"
+msgstr ""
+
+#: modules/security/settings.php:98
+msgid ""
+"Denies public access to critical system files such as<br>\n"
+"          .htaccess, log files, install.php, wp-config.php and "
+"readme's."
+msgstr ""
+
+#: modules/security/settings.php:116
+msgid "Disable directory browsing"
+msgstr ""
+
+#: modules/security/settings.php:124
+msgid ""
+"Prevents public users from seeing a list of files in a directory."
+msgstr ""
+
+#: modules/security/settings.php:141
+msgid "Disable PHP execution in uploads directory"
+msgstr ""
+
+#: modules/security/settings.php:149
+msgid ""
+"Blocks requests to maliciously uploaded PHP files in the uploads "
+"directory."
+msgstr ""
+
+#: modules/security/settings.php:170
+msgid "Reduce spam"
+msgstr ""
+
+#: modules/security/settings.php:182
+msgid "No UserAgent, no POST request"
+msgstr ""
+
+#: modules/security/settings.php:190
+msgid "Denies POST requests by blank user-agents."
+msgstr ""
+
+#: modules/security/settings.php:207
+msgid "No referer, no comment"
+msgstr ""
+
+#: modules/security/settings.php:215
+msgid "Denies any comment attempt with a blank HTTP_REFERER field."
+msgstr ""
+
+#: modules/security/settings.php:237
+msgid "Miscellaneous"
+msgstr ""
+
+#: modules/security/settings.php:249
+msgid "Disable file editor"
+msgstr ""
+
+#: modules/security/settings.php:257
+msgid ""
+"Disables the file editor for plugins and themes<br>\n"
+"          requiring users to have access to the file system to "
+"modify files."
+msgstr ""
+
+#: modules/security/settings.php:278
+msgid "Force SSL"
+msgstr ""
+
+#: modules/security/settings.php:286
+msgid ""
+"Force a secure SSL (HTTPS) connection.<br>\n"
+"            <strong>Only check this if you have an up and running "
+"SSL certificate!</strong><br>\n"
+"            Updates \"siteurl\" and \"home\" options to their "
+"\"https://\" equivalent and sets <a href=\"https://wordpress.org/"
+"support/article/administration-over-ssl/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">FORCE_SSL_ADMIN</a> \"true\"."
+msgstr ""
+
+#: modules/security/settings.php:310
+msgid "Endpoints"
+msgstr ""
+
+#: modules/security/settings.php:322
+msgid "Disable REST API"
+msgstr ""
+
+#: modules/security/settings.php:330
+msgid ""
+"This means that all requests will require a logged in user,<br>\n"
+"          blocking public requests for potentially-private data."
+msgstr ""
+
+#: modules/security/settings.php:348
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: modules/security/settings.php:356
+msgid ""
+"Highly recommended if Jetpack, the WordPress mobile app,<br>\n"
+"          pingbacks and other services that use XML-RPC are not "
+"used."
+msgstr ""
+
+#: modules/security/settings.php:385
+msgid "Brute-force protection"
+msgstr ""
+
+#: modules/security/settings.php:411
+msgid ""
+"The below user(s) have the same \"user_nicename\" or \"display_name"
+"\" as their \"login_name\", meaning these usernames are revealed "
+"publicly.<br>\n"
+"          Consider changing their \"display names\" to something "
+"different than their \"usernames\" in order to avoid brute-force "
+"attacks with valid usernames.<br>\n"
+"          When updating user data, Essentials makes sure "
+"\"user_nicename\" also updates according to the value for "
+"\"display_name\"."
+msgstr ""
+
+#: modules/security/settings.php:427
+msgid "Update users"
+msgstr ""
+
+#: modules/security/settings.php:447
+msgid "There are active lockouts at this moment:"
+msgstr ""
+
+#: modules/security/settings.php:488
+msgid "No active lockouts at this moment."
+msgstr ""
+
+#: modules/security/settings.php:512
+#, php-format
+msgid ""
+"To protect your legitimate interests, lockouts and failed login "
+"attempts are stored in the database for %s days."
+msgstr ""
+
+#: modules/security/settings.php:531
+msgid "attempts per user."
+msgstr ""
+
+#: modules/security/settings.php:550
+msgid "attempts per host."
+msgstr ""
+
+#: modules/security/settings.php:559
+msgid ""
+"Set the amount of incorrect login attempts that are allowed before "
+"a user or host is being locked out.<br>\n"
+"          Set to \"-1\" to allow infinite attempts, i.e. disable "
+"brute-force."
+msgstr ""
+
+#: modules/security/settings.php:577
+msgid ""
+"Immediately lockout hosts attempting \"admin\" or \"administrator"
+"\" as username"
+msgstr ""
+
+#: modules/security/settings.php:587
+msgid "Attempt period"
+msgstr ""
+
+#: modules/security/settings.php:601
+#: modules/security/settings.php:634
+msgid "minutes."
+msgstr ""
+
+#: modules/security/settings.php:611
+msgid ""
+"The number of minutes in which incorrect login attempts are "
+"remembered."
+msgstr ""
+
+#: modules/security/settings.php:620
+msgid "Lockout duration"
+msgstr ""
+
+#: modules/security/settings.php:644
+msgid ""
+"The period in which a username is blocked or a host is banned."
+msgstr ""
+
+#: modules/security/settings.php:663
+msgid "When a lockout occurs, send an email to:"
+msgstr ""
+
+#: modules/security/settings.php:698
+msgid "Only send an email when an existing user is locked out"
+msgstr ""
+
+#: wpessentials.php:51
+msgid "Basic security options and brute-force protection."
+msgstr ""
+
+#: wpessentials.php:59
+msgid "Devmode"
+msgstr ""
+
+#: wpessentials.php:60
+msgid ""
+"Use these options when your WordPress website is being developed."
+msgstr ""
+
+#: wpessentials.php:69
+msgid ""
+"Change the WordPress logo shown above the login form to your own "
+"brand's logo."
+msgstr ""
+
+#: wpessentials.php:76
+msgid "Google Analytics"
+msgstr ""
+
+#: wpessentials.php:77
+msgid "Analytics"
+msgstr ""
+
+#: wpessentials.php:78
+msgid "Implement Google Analytics using gtag.js."
+msgstr ""
+
+#: wpessentials.php:154
+msgid "Settings"
+msgstr ""
+
+#: wpessentials.php:155
+msgid "Rate"
+msgstr ""
+
+#: wpessentials.php:207
+msgid ""
+"An overview of all available modules.<br>\n"
+"            Enable/disable the modules you require or quickly goto "
+"a module's admin page."
+msgstr ""
+
+#: wpessentials.php:254
+msgid "Settings saved"
+msgstr ""
+
+#: wpessentials.php:278
+msgid "Rate this plugin"
+msgstr ""

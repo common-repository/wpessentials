@@ -1,0 +1,742 @@
+# This file is distributed under the same license as the plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: wpessentials\n"
+"Report-Msgid-Bugs-To: Bob Vandevliet <wpessentials@bvandevliet.nl>\n"
+"POT-Creation-Date: 2022-02-11 17:33+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bob Vandevliet <wpessentials@bvandevliet.nl>\n"
+"Language-Team: wpessentials@bvandevliet.nl\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: wpessentials\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/brute-force.php:31
+#, php-format
+msgid ""
+"You receive this email because you have opted-in to be alerted when a "
+"lockout occurs.<br>\n"
+"        If you wish to opt-out, <a href=\"%1$s\">log-in</a> to your website "
+"and uncheck the option.<br>\n"
+"        If you are not the intended recipient of this message, please <a "
+"href=\"mailto:%2$s\">contact</a> the website administrator.<br>\n"
+"        <br>Thank you for using Essentials!"
+msgstr ""
+"U ontvangt deze e-mail omdat u zich hebt aangemeld om te worden gewaarschuwd "
+"wanneer er een uitsluiting plaatsvindt.<br>\n"
+"      Als u zich wilt afmelden, <a href=\"%1$s\">logt u in</a> op uw website "
+"en schakelt u de optie uit.<br>\n"
+"      Als u niet de beoogde ontvanger van dit bericht bent, neem dan <a href="
+"\"mailto:%2$s\">contact</a> op met de beheerder van de website.<br>\n"
+"      <br>Bedankt voor het gebruik van Essentials!"
+
+#: inc/brute-force.php:546 modules/security/action.php:47
+#: modules/security/action.php:74
+msgid "You are locked out."
+msgstr "You are locked out."
+
+#: inc/functions.php:16
+msgid "Enabled"
+msgstr "Inschakelen"
+
+#: inc/functions.php:30 inc/functions.php:173
+msgid "Manage"
+msgstr "Beheren"
+
+#: inc/functions.php:138 inc/functions.php:146
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: inc/functions.php:160
+msgid "Link Finder"
+msgstr "Link Vinder"
+
+#: inc/functions.php:173
+msgid "Install"
+msgstr "Installeren"
+
+#: inc/functions.php:208 wpessentials.php:275
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: modules/analytics/settings.php:44
+msgid "Tracking ID"
+msgstr "Tracking ID"
+
+#: modules/analytics/settings.php:52
+msgid ""
+"Find your Tracking ID under \"Admin\" >> \"Tracking Info\" >> \"Tracking Code"
+"\" in your <a href=\"https://analytics.google.com/analytics/\" target="
+"\"_blank\" rel=\"noopener noreferrer\">Google Analytics account</a>.<br>\n"
+"          After saving settings, make sure Google Analytics is receiving "
+"traffic from your website using the \"Send test traffic\" button."
+msgstr ""
+"Vind uw tracking-id onder 'Beheerder' >> 'Trackinginfo' >> 'Tracking code' "
+"in uw <a href=\"https://analytics.google.com/analytics/\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Google Analytics-account</a>.<br>Controleer na "
+"het opslaan van instellingen of Google Analytics verkeer van uw website "
+"ontvangt via de knop 'Testverkeer verzenden'."
+
+#: modules/analytics/settings.php:75
+msgid "Tag location"
+msgstr "Tag locatie"
+
+#: modules/analytics/settings.php:98
+msgid ""
+"Google recommends including the tag in the page header, but including it in "
+"the footer could benefit page performance.<br>\n"
+"          If in doubt, go with the default header option."
+msgstr ""
+"Google adviseert het script in de pagina header op te nemen, maar dit in de "
+"footer op te nemen kan de prestaties van de pagina ten goede komen.<br>\n"
+"           Bij twijfel, kies de header optie."
+
+#: modules/analytics/settings.php:121
+msgid "Anonymize"
+msgstr "Anonimiseer"
+
+#: modules/analytics/settings.php:128
+msgid ""
+"Anonymize the last 3 digits of the IP-adress (<a href=\"https://support."
+"google.com/analytics/answer/2763052\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Explanation</a>)"
+msgstr ""
+"Anonimiseer de laatste 3 cijfers van het IP-adres (<a href=\"https://support."
+"google.com/analytics/answer/2763052\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Uitleg</a>)"
+
+#: modules/analytics/settings.php:136
+msgid ""
+"TIP! Accept the \"Data processing amendment\" for your Google Analytics "
+"account and disallow Google to share Analytics data with their other "
+"services.<br>\n"
+"          Then - with this option enabled - you don't need to ask your "
+"visitors for permission to place Analytics cookies. How To: <a href="
+"\"https://support.google.com/analytics/answer/1011397/\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Google</a>; <a href=\"https://daan.dev/wordpress/"
+"analytics-gdpr-anonymize-ip-cookie-notice/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Daan.dev</a>."
+msgstr ""
+"TIP! Accepteer het \"Gegevensverwerkingsamendement\" voor uw Google "
+"Analytics-account en verbied Google om Analytics-gegevens met hun andere "
+"services te delen.<br>\n"
+"           Vervolgens - met deze optie ingeschakeld - hoeft u uw bezoekers "
+"niet om toestemming te vragen voor het plaatsen van Analytics-cookies. Hoe "
+"het werkt: <a href=\"https://support.google.com/analytics/answer/1011397/\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">Google</a>; <a href=\"https://"
+"daan.dev/wordpress/analytics-gdpr-anonymize-ip-cookie-notice/\" target="
+"\"_blank\" rel=\"noopener noreferrer\">Daan.dev</a>."
+
+#: modules/analytics/settings.php:159
+msgid "Disable ads"
+msgstr "Advertenties uitschakelen"
+
+#: modules/analytics/settings.php:166
+msgid ""
+"Disable advertising features (<a href=\"https://support.google.com/analytics/"
+"answer/9050852\" target=\"_blank\" rel=\"noopener noreferrer\">Explanation</"
+"a>)"
+msgstr ""
+"Schakel advertentiefunctionaliteiten uit (<a href=\"https://support.google."
+"com/analytics/answer/9050852\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">Uitleg</a>)"
+
+#: modules/analytics/settings.php:188
+msgid "Admin area"
+msgstr "Dashboard"
+
+#: modules/analytics/settings.php:195
+msgid "Enable Google Analytics in the Admin area"
+msgstr "Schakel Google Analytics in het dashboard in"
+
+#: modules/analytics/settings.php:215
+msgid "User tracking"
+msgstr "Tracking van gebruikers"
+
+#: modules/analytics/settings.php:219
+msgid "Your current IP adress:"
+msgstr "Je huidige IP adres:"
+
+#: modules/analytics/settings.php:230
+msgid "Disable tracking of Administrator users"
+msgstr "Schakel tracking van beheerders uit"
+
+#: modules/analytics/settings.php:245
+msgid "Disable tracking of all logged-in users"
+msgstr "Schakel tracking van alle ingelogde gebruikers uit"
+
+#: modules/devmode/settings.php:22 wpessentials.php:58
+msgid "Development Mode"
+msgstr "Ontwikkelaar Mode"
+
+#: modules/devmode/settings.php:44
+msgid "Debugging"
+msgstr "Debugging"
+
+#: modules/devmode/settings.php:57
+msgid "Enable debug"
+msgstr "Debugging inschakelen"
+
+#: modules/devmode/settings.php:65
+msgid ""
+"Display all PHP errors, notices and warnings by setting <a href=\"https://"
+"wordpress.org/support/article/debugging-in-wordpress/#wp_debug\" target="
+"\"_blank\" rel=\"noopener noreferrer\">WP_DEBUG</a> and <a href=\"https://"
+"wordpress.org/support/article/editing-wp-config-php/"
+"#wp_disable_fatal_error_handler\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">WP_DISABLE_FATAL_ERROR_HANDLER</a> \"true\"."
+msgstr ""
+"Geef alle PHP-fouten, meldingen en waarschuwingen weer door <a href="
+"\"https://wordpress.org/support/article/debugging-in-wordpress/#wp_debug\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">WP_DEBUG< / a> en <a href="
+"\"https://wordpress.org/support/article/editing-wp-config-php/"
+"#wp_disable_fatal_error_handler\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">WP_DISABLE_FATAL_ERROR_HANDLER</a> op \" true\" te zetten."
+
+#: modules/devmode/settings.php:83
+msgid "Enable logging"
+msgstr "Loggen inschakelen"
+
+#: modules/devmode/settings.php:92
+#, php-format
+msgid ""
+"Log all PHP errors, notices and warnings to <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">wp-content/debug.log</a> instead of displaying "
+"them,<br>\n"
+"          by setting <a href=\"https://wordpress.org/support/article/"
+"debugging-in-wordpress/#wp_debug_log\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">WP_DEBUG_LOG</a> \"true\" and <a href=\"https://wordpress.org/"
+"support/article/debugging-in-wordpress/#wp_debug_display\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">WP_DEBUG_DISPLAY</a> \"false\"."
+msgstr ""
+"Log alle PHP-fouten, meldingen en waarschuwingen in <a href=\"%s\" target="
+"\"_blank\" rel=\"noopener noreferrer\">wp-content/debug.log</a> in plaats "
+"van deze weer te geven,<br>\n"
+"           door <a href=\"https://wordpress.org/support/article/debugging-in-"
+"wordpress/#wp_debug_log\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">WP_DEBUG_LOG</a> op \"true\" te zetten en <a href=\"https://wordpress.org/"
+"support/article/debugging-in-wordpress/#wp_debug_display\" target=\"_ blank"
+"\" rel=\"noopener noreferrer\">WP_DEBUG_DISPLAY</a> op \"false\" te zetten."
+
+#: modules/devmode/settings.php:113
+msgid "Save queries"
+msgstr "Queries opslaan"
+
+#: modules/devmode/settings.php:121
+msgid ""
+"Saves the database queries to an array by setting <a href=\"https://"
+"wordpress.org/support/article/debugging-in-wordpress/#savequeries\" target="
+"\"_blank\" rel=\"noopener noreferrer\">SAVEQUERIES</a> \"true\"<br>\n"
+"          and displays it in the front-end footer for logged in "
+"administrators to help analyze those queries."
+msgstr ""
+"Slaat database queries op in een array door <a href=\"https://wordpress.org/"
+"support/article/debugging-in-wordpress/#savequeries\" target=\"_blank\" rel="
+"\"noopener noreferrer\">SAVEQUERIES</a> op \"true\" te zetten<br>\n"
+"\n"
+"          en geeft het resultaat weer in de front-end footer voor ingelogde "
+"administrator gebruikers om te helpen deze queries te analyseren."
+
+#: modules/devmode/settings.php:143
+msgid "Disable front-end"
+msgstr "Front-end uitschakelen"
+
+#: modules/devmode/settings.php:155
+msgid "Make front-end accessible for logged-in users only"
+msgstr "Maak front-end alleen toegankelijk voor ingelogde gebruikers"
+
+#: modules/devmode/settings.php:163
+msgid ""
+"Logged-out visitors are redirected to the login page.<br>\n"
+"          Search engines are discouraged from indexing this site.<br>\n"
+"          <strong>The Privacy Policy page will always be accessible.</strong>"
+msgstr ""
+"Uitgelogde bezoekers worden doorgestuurd naar de inlogpagina.<br>\n"
+"           Zoekmachines worden afgeraden deze site te indexeren.<br>\n"
+"           <strong>De Privacyverklaring pagina is altijd toegankelijk.</"
+"strong>"
+
+#: modules/devmode/settings.php:188
+msgid ""
+"If front-end is accessible for logged-in users only,<br>\n"
+"          this is shown below the login form, instead of the homepage "
+"hyperlink."
+msgstr ""
+"Als front-end alleen toegankelijk is voor ingelogde gebruikers,<br>\n"
+"           wordt dit onder het aanmeldingsformulier weergegeven in plaats "
+"van de hyperlink naar de voorpagina."
+
+#: modules/devmode/settings.php:232
+msgid "debug.log file contents:"
+msgstr "debug.log bestand inhoud:"
+
+#: modules/devmode/settings.php:235
+msgid "clear"
+msgstr "leegmaken"
+
+#: modules/login/settings.php:22 wpessentials.php:67 wpessentials.php:68
+msgid "Login Form"
+msgstr "Login Formulier"
+
+#: modules/login/settings.php:41
+msgid "Login logo"
+msgstr "Login logo"
+
+#: modules/login/settings.php:81
+msgid "Select image"
+msgstr "Selecteer afbeelding"
+
+#: modules/login/settings.php:87
+msgid "Remove image"
+msgstr "Verwijder afbeelding"
+
+#: modules/login/settings.php:93
+msgid ""
+"Change the image shown above the login form.<br>\n"
+"          The image should ideally not be wider than 320px!"
+msgstr ""
+"Wijzig de afbeelding die boven het inlogformulier wordt getoond.<br>\n"
+"           De afbeelding mag idealiter niet breder zijn dan 320 pixels!"
+
+#: modules/security/settings.php:24 wpessentials.php:49 wpessentials.php:50
+msgid "Security"
+msgstr "Beveiliging"
+
+#: modules/security/settings.php:43
+msgid "Secret Keys and Salts"
+msgstr "Geheime sleutels"
+
+#: modules/security/settings.php:50
+msgid "Regenerate"
+msgstr "Opnieuw genereren"
+
+#: modules/security/settings.php:56
+msgid ""
+"Secret keys make your site harder to successfully attack by adding random "
+"elements to the password (<a href=\"https://wordpress.org/support/article/"
+"editing-wp-config-php/#security-keys\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Security Keys</a>).<br>\n"
+"          You can regenerate these at any point in time to invalidate all "
+"existing cookies. <strong>This will force all users to have to log in again!"
+"</strong>"
+msgstr ""
+"Geheime sleutels maken het moeilijker uw site aan te vallen door "
+"willekeurige elementen aan het wachtwoord toe te voegen (<a href=\"https://"
+"wordpress.org/support/article/editing-wp-config-php/#security-keys\" target="
+"\"_blank\" rel=\"noopener noreferrer\">Beveiligingssleutels</a>).<br>\n"
+"           U kunt deze op elk gewenst moment regenereren om alle bestaande "
+"cookies ongeldig te maken. <strong>Hierdoor worden alle gebruikers gedwongen "
+"opnieuw in te loggen!</strong>"
+
+#: modules/security/settings.php:78
+msgid "Protection"
+msgstr "Bescherming"
+
+#: modules/security/settings.php:90
+msgid "Protect system files"
+msgstr "Bescherm systeembestanden"
+
+#: modules/security/settings.php:98
+msgid ""
+"Denies public access to critical system files such as<br>\n"
+"          .htaccess, log files, install.php, wp-config.php and readme's."
+msgstr ""
+"Weigert publiekelijke toegang tot kritische systeembestanden zoals<br>\n"
+"          .htaccess, log bestanden, install.php, wp-config.php en readme's."
+
+#: modules/security/settings.php:116
+msgid "Disable directory browsing"
+msgstr "Schakel map bladeren uit"
+
+#: modules/security/settings.php:124
+msgid "Prevents public users from seeing a list of files in a directory."
+msgstr ""
+"Voorkomt dat publieke gebruikers door bestanden kunnen bladeren in een map."
+
+#: modules/security/settings.php:141
+msgid "Disable PHP execution in uploads directory"
+msgstr "Schakel PHP-uitvoering uit in de uploads-map"
+
+#: modules/security/settings.php:149
+msgid ""
+"Blocks requests to maliciously uploaded PHP files in the uploads directory."
+msgstr ""
+"Blokkeert requests naar kwaadwillig geüploade PHP-bestanden in de uploads-"
+"map."
+
+#: modules/security/settings.php:170
+msgid "Reduce spam"
+msgstr "Reduceer spam"
+
+#: modules/security/settings.php:182
+msgid "No UserAgent, no POST request"
+msgstr "Geen UserAgent, geen POST request"
+
+#: modules/security/settings.php:190
+msgid "Denies POST requests by blank user-agents."
+msgstr "Weigert POST-verzoeken van blanco user-agents."
+
+#: modules/security/settings.php:207
+msgid "No referer, no comment"
+msgstr "Geen referer, geen comment"
+
+#: modules/security/settings.php:215
+msgid "Denies any comment attempt with a blank HTTP_REFERER field."
+msgstr ""
+"Weigert pogingen tot het plaatsen van comments met een leeg HTTP_REFERER-"
+"veld."
+
+#: modules/security/settings.php:237
+msgid "Miscellaneous"
+msgstr "Diversen"
+
+#: modules/security/settings.php:249
+msgid "Disable file editor"
+msgstr "Schakel de bestandseditor uit"
+
+#: modules/security/settings.php:257
+msgid ""
+"Disables the file editor for plugins and themes<br>\n"
+"          requiring users to have access to the file system to modify files."
+msgstr ""
+"Schakelt de bestandseditor uit voor plugins en thema's<br>\n"
+"           dit vereist dat gebruikers toegang hebben tot het bestandssysteem "
+"om bestanden te kunnen wijzigen."
+
+#: modules/security/settings.php:278
+msgid "Force SSL"
+msgstr "Forceer SSL"
+
+#: modules/security/settings.php:286
+msgid ""
+"Force a secure SSL (HTTPS) connection.<br>\n"
+"            <strong>Only check this if you have an up and running SSL "
+"certificate!</strong><br>\n"
+"            Updates \"siteurl\" and \"home\" options to their \"https://\" "
+"equivalent and sets <a href=\"https://wordpress.org/support/article/"
+"administration-over-ssl/\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">FORCE_SSL_ADMIN</a> \"true\"."
+msgstr ""
+"Forceer een veilige SSL (HTTPS) verbinding.<br>\n"
+"          <strong>Alleen aanzetten wanneer je beschikt over een werkend SSL "
+"certificaat!</strong><br>\n"
+"          Updatet \"siteurl\" en \"home\" opties naar hun \"https://\" "
+"equivalent en zet <a href=\"https://wordpress.org/support/article/"
+"administration-over-ssl/\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">FORCE_SSL_ADMIN</a> op \"true\"."
+
+#: modules/security/settings.php:310
+msgid "Endpoints"
+msgstr "Endpoints"
+
+#: modules/security/settings.php:322
+msgid "Disable REST API"
+msgstr "Schakel XML-RPC uit"
+
+#: modules/security/settings.php:330
+msgid ""
+"This means that all requests will require a logged in user,<br>\n"
+"          blocking public requests for potentially-private data."
+msgstr ""
+"Dit betekent dat de meeste aanvragen een ingelogde gebruiker vereisen<br>\n"
+"           wat openbare verzoeken voor mogelijk privégegevens blokkeert."
+
+#: modules/security/settings.php:348
+msgid "Disable XML-RPC"
+msgstr "Schakel XML-RPC uit"
+
+#: modules/security/settings.php:356
+msgid ""
+"Highly recommended if Jetpack, the WordPress mobile app,<br>\n"
+"          pingbacks and other services that use XML-RPC are not used."
+msgstr ""
+"Sterk aanbevolen als Jetpack, de WordPress mobiele app,<br>\n"
+"           pingbacks en andere services die XML-RPC gebruiken, niet worden "
+"gebruikt."
+
+#: modules/security/settings.php:385
+msgid "Brute-force protection"
+msgstr "Brute-force bescherming"
+
+#: modules/security/settings.php:411
+msgid ""
+"The below user(s) have the same \"user_nicename\" or \"display_name\" as "
+"their \"login_name\", meaning these usernames are revealed publicly.<br>\n"
+"          Consider changing their \"display names\" to something different "
+"than their \"usernames\" in order to avoid brute-force attacks with valid "
+"usernames.<br>\n"
+"          When updating user data, Essentials makes sure \"user_nicename\" "
+"also updates according to the value for \"display_name\"."
+msgstr ""
+"De onderstaande gebruiker (s) hebben dezelfde \"user_nicename\" of "
+"\"display_name\" als hun \"login_name\", wat betekent dat deze "
+"gebruikersnamen openbaar vindbaar zijn.<br>\n"
+"             Overweeg om hun \"weergavenamen\" te wijzigen in iets anders "
+"dan hun \"gebruikersnamen\" om brute-force-aanvallen met geldige "
+"gebruikersnamen te voorkomen.<br>\n"
+"             Bij het bijwerken van gebruikersgegevens zorgt Essentials "
+"ervoor dat \"user_nicename\" ook wordt bijgewerkt volgens de waarde voor "
+"\"display_name\"."
+
+#: modules/security/settings.php:427
+msgid "Update users"
+msgstr "Update gebruikers"
+
+#: modules/security/settings.php:447
+msgid "There are active lockouts at this moment:"
+msgstr "Er zijn actieve lockouts op dit moment:"
+
+#: modules/security/settings.php:488
+msgid "No active lockouts at this moment."
+msgstr "Geen actieve lockouts op dit moment."
+
+#: modules/security/settings.php:512
+#, php-format
+msgid ""
+"To protect your legitimate interests, lockouts and failed login attempts are "
+"stored in the database for %s days."
+msgstr ""
+"Om uw gerechtvaardigd belang te behartigen, worden lockouts en mislukte "
+"inlogpogingen gedurende %s dagen in de database opgeslagen."
+
+#: modules/security/settings.php:531
+msgid "attempts per user."
+msgstr "pogingen per gebruiker."
+
+#: modules/security/settings.php:550
+msgid "attempts per host."
+msgstr "pogingen per host."
+
+#: modules/security/settings.php:559
+msgid ""
+"Set the amount of incorrect login attempts that are allowed before a user or "
+"host is being locked out.<br>\n"
+"          Set to \"-1\" to allow infinite attempts, i.e. disable brute-force."
+msgstr ""
+"Stel het aantal onjuiste inlogpogingen in dat is toegestaan voordat een "
+"gebruiker of host wordt geblokkeerd.<br>\n"
+"           Stel in op \"-1\" om onbeperkte pogingen toe te staan, met andere "
+"woorden, brute-force uit te schakelen."
+
+#: modules/security/settings.php:577
+msgid ""
+"Immediately lockout hosts attempting \"admin\" or \"administrator\" as "
+"username"
+msgstr ""
+"Blokkeer hosts die \"admin\" of \"administrator\" proberen als "
+"gebruikersnaam onmiddellijk"
+
+#: modules/security/settings.php:587
+msgid "Attempt period"
+msgstr "Poging periode"
+
+#: modules/security/settings.php:601 modules/security/settings.php:634
+msgid "minutes."
+msgstr "minuten."
+
+#: modules/security/settings.php:611
+msgid "The number of minutes in which incorrect login attempts are remembered."
+msgstr "Het aantal minuten waarin onjuiste inlogpogingen worden onthouden."
+
+#: modules/security/settings.php:620
+msgid "Lockout duration"
+msgstr "Lockout-duur"
+
+#: modules/security/settings.php:644
+msgid "The period in which a username is blocked or a host is banned."
+msgstr ""
+"Dit is de periode waarin een gebruikersnaam wordt geblokkeerd of een host "
+"wordt verbannen."
+
+#: modules/security/settings.php:663
+msgid "When a lockout occurs, send an email to:"
+msgstr "Wanneer een lockout optreedt, stuur een e-mail naar:"
+
+#: modules/security/settings.php:698
+msgid "Only send an email when an existing user is locked out"
+msgstr "Stuur alleen een e-mail wanneer een bestaande gebruiker locked out is"
+
+#: wpessentials.php:51
+msgid "Basic security options and brute-force protection."
+msgstr "Basis beveiligingsopties en brute-force bescherming."
+
+#: wpessentials.php:59
+msgid "Devmode"
+msgstr "Devmode"
+
+#: wpessentials.php:60
+msgid "Use these options when your WordPress website is being developed."
+msgstr "Gebruik deze opties wanneer uw WordPress-website in ontwikkeling is."
+
+#: wpessentials.php:69
+msgid ""
+"Change the WordPress logo shown above the login form to your own brand's "
+"logo."
+msgstr ""
+"Wijzig het WordPress-logo dat boven het inlogformulier wordt weergegeven in "
+"het logo van uw eigen merk."
+
+#: wpessentials.php:76
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: wpessentials.php:77
+msgid "Analytics"
+msgstr "Analytics"
+
+#: wpessentials.php:78
+msgid "Implement Google Analytics using gtag.js."
+msgstr "Implementeer Google Analytics met de gtag.js snippet."
+
+#: wpessentials.php:154
+msgid "Settings"
+msgstr "Instellingen"
+
+#: wpessentials.php:155
+msgid "Rate"
+msgstr "Beoordelen"
+
+#: wpessentials.php:207
+msgid ""
+"An overview of all available modules.<br>\n"
+"            Enable/disable the modules you require or quickly goto a "
+"module's admin page."
+msgstr ""
+"Een overzicht van alle beschikbare modules.<br>\n"
+"          Schakel de benodigde modules in/uit of ga snel naar een module's "
+"beheer pagina."
+
+#: wpessentials.php:254
+msgid "Settings saved"
+msgstr "Instellingen opgeslagen"
+
+#: wpessentials.php:278
+msgid "Rate this plugin"
+msgstr "Beoordeel deze plugin"
+
+#~ msgid ""
+#~ "Links to admin-pages are ignored.\n"
+#~ "          <br>\n"
+#~ "          If a potential improvement could be made to an internal link, "
+#~ "it is marked yellow. All broken links will be marked red.<br>\n"
+#~ "          <strong>Please note that sometimes links may appear false-"
+#~ "positive, always follow the link manually to confirm before making "
+#~ "changes!</strong>"
+#~ msgstr ""
+#~ "Links naar admin-pagina's worden genegeerd.\n"
+#~ "           <br>\n"
+#~ "           Als een mogelijke verbetering aan een interne link kan worden "
+#~ "gedaan, wordt deze geel gemarkeerd. Alle onjuiste links worden rood "
+#~ "gemarkeerd.<br>\n"
+#~ "           <strong>Houd er rekening mee dat links soms vals-positief "
+#~ "kunnen zijn, volg de link altijd handmatig om te bevestigen voordat u "
+#~ "wijzigingen aanbrengt!</strong>"
+
+#~ msgid "Code"
+#~ msgstr "Code"
+
+#~ msgid "Message"
+#~ msgstr "Melding"
+
+#~ msgid "Post title (edit-link)"
+#~ msgstr "Post titel (bewerk-link)"
+
+#~ msgid "Post type"
+#~ msgstr "Bericht type"
+
+#~ msgid "Element"
+#~ msgstr "Element"
+
+#~ msgid "Original hyperlink"
+#~ msgstr "Originele hyperlink"
+
+#~ msgid "New hyperlink"
+#~ msgstr "Nieuwe hyperlink"
+
+#~ msgid "Apply changes"
+#~ msgstr "Wijzigingen doorvoeren"
+
+#~ msgid "OR apply changes while .."
+#~ msgstr "OF wijzigingen toepassen en .."
+
+#~ msgid "allowing self-pings (default)"
+#~ msgstr "zelfpingen toestaan (standaard)"
+
+#~ msgid "avoiding self-pings"
+#~ msgstr "zelfpingen vermijden"
+
+#~ msgid "About self-pings"
+#~ msgstr "Over zelfpingen"
+
+#~ msgid "Changes are irreversable!"
+#~ msgstr "Wijzigingen zijn onomkeerbaar!"
+
+#~ msgid ""
+#~ "Something went wrong, not all hyperlinks were updated! Remaining issues "
+#~ "will reappear in the list."
+#~ msgstr ""
+#~ "Er is iets misgegaan, niet alle hyperlinks zijn bijgewerkt! Resterende "
+#~ "problemen verschijnen opnieuw in de lijst."
+
+#~ msgid ""
+#~ "Hyperlinks updated. If there are any remaining issues, they will "
+#~ "(re)appear in the list."
+#~ msgstr ""
+#~ "Hyperlinks bijgewerkt. Als er nog problemen zijn, verschijnen deze "
+#~ "(opnieuw) in de lijst."
+
+#~ msgid "Type of tag"
+#~ msgstr "Type tag"
+
+#~ msgid ""
+#~ "Read more about Analytics tags at <a href=\"https://developers.google.com/"
+#~ "analytics/devguides/collection\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">Google Developers</a>.<br>\n"
+#~ "          If in doubt, go with the default analytics.js option."
+#~ msgstr ""
+#~ "Lees meer over Google tags op <a href=\"https://developers.google.com/"
+#~ "analytics/devguides/collection/gtagjs/\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">Google Developers</a>.\n"
+#~ "          Bij twijfel, kies de analytics.js optie."
+
+#~ msgid "Pageview"
+#~ msgstr "Paginaweergave"
+
+#~ msgid "Don't send pageview hit"
+#~ msgstr "Verzend geen paginaweergave hit"
+
+#~ msgid ""
+#~ "By default, a pageview hit is sent to Google Analytics. This is the "
+#~ "desired behavior in most cases.<br>\n"
+#~ "          However, if you don’t want the snippet to send a pageview hit "
+#~ "to Google Analytics, check this box."
+#~ msgstr ""
+#~ "Standaard wordt een hit voor paginaweergave naar Google Analytics "
+#~ "verzonden. In de meeste gevallen is dit het gewenste gedrag.<br>\n"
+#~ "           Als u echter niet wilt dat het fragment een paginaweergave hit "
+#~ "naar Google Analytics verzendt, vinkt u dit vakje aan."
+
+#~ msgid "Something went wrong, please try again!"
+#~ msgstr "Er is iets misgegaan, probeer het later opnieuw!"
+
+#~ msgid "Determine and fix potentially broken hyperlinks."
+#~ msgstr "Vind en repareer mogelijk onjuiste hyperlinks."
+
+#~ msgid "Restrict access to most REST API data"
+#~ msgstr "Beperk de toegang tot de meeste REST API-gegevens"
+
+#, php-format
+#~ msgid "Enable logging <span>(<a href=\"#\" onclick=\"%s\">Clear</a>)</span>"
+#~ msgstr ""
+#~ "Schakel loggen in <span>(<a href=\"#\" onclick=\"%s\">Leegmaken</a>)</"
+#~ "span>"
